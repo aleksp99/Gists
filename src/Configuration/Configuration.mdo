@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3b7b604a-8b8b-4ae9-8864-708432817e86">
+  <name>Gists</name>
+  <synonym>
+    <key>ru</key>
+    <value>Gists</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="5dbb60c5-962a-4a7f-bbe7-fefbdb3fb50f"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="b1590a1e-e430-4522-937a-ccf273d50c3f"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="f701fbca-f460-44a8-8706-4f56d874324b"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="9272dc3c-5dff-4e0c-90d2-15d0b63dab9b"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="7a29e61a-1c07-40dc-8ef6-12c7cc8828d4"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="10437668-ce14-4880-99d7-746e62fa6371"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="f3425126-f81c-4252-bfaa-6880a3dbd4be"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>aleks_p99@mail.ru</vendor>
+  <version>0.0.0.1</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.14</compatibilityMode>
+  <languages uuid="4ffff9af-ab72-4c7f-9c22-329f49ba3ffb">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Gists</subsystems>
+  <commonPictures>CommonPicture.Gists16</commonPictures>
+  <commonPictures>CommonPicture.GitHub</commonPictures>
+  <commonModules>CommonModule.GistsКлиентСервер</commonModules>
+  <commonModules>CommonModule.GistsПовтИсп</commonModules>
+  <catalogs>Catalog.Gists</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Теги</catalogs>
+</mdclass:Configuration>
