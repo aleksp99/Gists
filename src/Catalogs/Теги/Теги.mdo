@@ -102,11 +102,12 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Теги.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="b6e394f7-cc2a-43d0-86d4-4e071a9d85eb">
-    <name>Пользователь</name>
+    <name>Автор</name>
     <synonym>
       <key>ru</key>
-      <value>Пользователь</value>
+      <value>Автор</value>
     </synonym>
     <type>
       <types>CatalogRef.Пользователи</types>
@@ -117,4 +118,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="e4272fde-587d-4766-bc98-eb7218db6d94">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

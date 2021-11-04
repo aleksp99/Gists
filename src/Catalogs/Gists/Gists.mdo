@@ -110,10 +110,10 @@
   <defaultObjectForm>Catalog.Gists.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Gists.Form.ФормаСписка</defaultListForm>
   <attributes uuid="70ae71bf-33ad-4a0b-aafd-022595e6404e">
-    <name>Пользователь</name>
+    <name>Автор</name>
     <synonym>
       <key>ru</key>
-      <value>Пользователь</value>
+      <value>Автор</value>
     </synonym>
     <type>
       <types>CatalogRef.Пользователи</types>
