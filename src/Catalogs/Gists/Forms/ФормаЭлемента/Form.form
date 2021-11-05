@@ -6,10 +6,6 @@
     <items xsi:type="form:FormField">
       <name>Наименование</name>
       <id>1</id>
-      <title>
-        <key>ru</key>
-        <value>Имя</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1137,6 +1133,10 @@
     <handlers>
       <event>OnReadAtServer</event>
       <name>ПриЧтенииНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>AfterWriteAtServer</event>
+      <name>ПослеЗаписиНаСервере</name>
     </handlers>
   </extInfo>
 </form:Form>
